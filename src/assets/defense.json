@@ -1,0 +1,57 @@
+{
+  "0": {
+    "name": "Autocannon Sentry",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "1": {
+    "name": "Gatling Sentry",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "2": {
+    "name": "Shield Generator Relay",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "3": {
+    "name": "Incendiary Mines",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "4": {
+    "name": "Anti-Personnel Minefield",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "5": {
+    "name": "Machine Gun Sentry",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "6": {
+    "name": "EMS Mortar Sentry",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "7": {
+    "name": "Mortar Sentry",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "8": {
+    "name": "Rocket Sentry",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "9": {
+    "name": "Tesla Tower",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "10": {
+    "name": "HMG Emplacement",
+    "scope": 1,
+    "damage": "1d8"
+  }
+}

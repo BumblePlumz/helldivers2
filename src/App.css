@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+}
+
+/**********************/
+/*                    */
+/*        GRID        */
+/*                    */
+/**********************/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+.grid-section-stratagems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+.grid-section-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.grid-section-details p {
+  text-align: center;
+}
+.grid-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px;
+}
+.grid-item {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  width: 50px; /* Définissez la largeur du bouton */
+  height: 50px; /* Définissez la hauteur du bouton */
+  overflow: hidden; /* Cache tout contenu qui dépasse du bouton */
+  display: flex; /* Utilisez flexbox pour centrer l'image */
+  justify-content: center; /* Centrez horizontalement */
+  align-items: center; /* Centrez verticalement */
+}
+.grid-img {
+  width: auto; /* Ajustez la taille de l'image automatiquement */
+  height: auto; /* Ajustez la taille de l'image automatiquement */
+  max-width: 100%; /* Empêchez l'image de dépasser de la largeur du bouton */
+  max-height: 100%; /* Empêchez l'image de dépasser de la hauteur du bouton */
+  object-fit: contain;
+}
+.grid-item:hover {
+  border: 3px solid greenyellow;
+}
+
+/**********************/
+/*                    */
+/*        USER        */
+/*                    */
+/**********************/
+.user-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  border: 1px solid #4caf50;
+  background-color: #213d22;
+  border-radius: 15px;
+}
+
+/**********************/
+/*                    */
+/*        MENU        */
+/*                    */
+/**********************/
+/* Style de base pour le bouton */
+.menu-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #4caf50; /* Couleur de la bordure */
+  color: #4caf50; /* Couleur du texte */
+  background-color: #ffffff; /* Couleur de fond */
+  border-radius: 5px; /* Bord arrondi */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Style au survol */
+.menu-btn:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.menu-article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #134ebd;
+  border-radius: 15px;
+  line-height: 1;
+  text-align: start !important;
+}
+
+.menu-container {
+  display: flex;
+}
+.menu-aside {
+  flex: 1;
+  object-fit: contain;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.menu-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.menu-description {
+  flex:3;
+  align-self: center;
+}
+/**********************/
+/*                    */
+/*       STATUS       */
+/*                    */
+/**********************/
+.active {
+  border: 3px solid greenyellow;
+}

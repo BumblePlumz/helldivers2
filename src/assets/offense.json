@@ -1,0 +1,92 @@
+{
+  "0": {
+    "name": "Eagle 110MM Rocket Pods",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "1": {
+    "name": "Eagle 500KG Bomb",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "2": {
+    "name": "Eagle Cluster Bomb",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "3": {
+    "name": "Eagle Airstrike",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "4": {
+    "name": "Eagle Smoke Strike",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "5": {
+    "name": "Eagle Napalm Airstrike",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "6": {
+    "name": "Eagle Strafing Run",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "7": {
+    "name": "Orbital Precision Strikes",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "8": {
+    "name": "120MM HE Barrage",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "9": {
+    "name": "380MM HE Barrage",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "10": {
+    "name": "Walking Barrage",
+    "scope": 2,
+    "damage": "1d8"
+  },
+  "11": {
+    "name": "Orbital EMS Strike",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "12": {
+    "name": "Orbital Smoke Strike",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "13": {
+    "name": "Airburst Strike",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "14": {
+    "name": "Gatling Barrage",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "15": {
+    "name": "Orbital Gas Strike",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "16": {
+    "name": "Laser Strike ",
+    "scope": 1,
+    "damage": "1d8"
+  },
+  "17": {
+    "name": "Railcannon Strike",
+    "scope": 1,
+    "damage": "1d8"
+  }
+}
